@@ -1,0 +1,162 @@
+.div1 {
+    background-color: #F5F5F5;
+    width: 100%;
+    /* margin: 0 auto;
+    width: 100%;
+    height: 100%; */
+}
+
+.div2 {
+    margin: 10px auto;
+    height: 80%;
+    width: 80%;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+    top: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: 204px 201px 178px 201px;
+    border-radius: solid;
+    padding-left: 20px;
+
+}
+
+.div3 {
+
+  height:698px;
+  background-color:#FFFFFF;
+  margin: 204px 201px 178px 201px;
+}
+
+input[type="checkbox"] + label:after {
+  position: absolute;
+  top: 0.45em;
+  left: 0.2em;
+  font-size: 0.8em;
+  color: #fff;
+  opacity: 0;
+  font-family: FontAwesome;
+  content: "\f00c";
+}
+input:checked + label:after {
+  opacity: 1;
+}
+
+input[type="checkbox"] + label {
+  position: relative;
+  display: block;
+  padding-left: 1.6em;
+}
+input[type="checkbox"] + label:before {
+  position: absolute;
+  top: 0.2em;
+  left: 0;
+  display: block;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  content: "";
+}
+
+
+.selectBox {
+  position: relative;
+  width: 295px;
+}
+
+.selectBox select {
+  margin: 0;
+  background: #FFFFFF;
+  border-radius: 2px;
+  width: 295px;
+  font-family: 'Lato';
+  font-style: normal;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  max-height: 250px;
+  width: 295px;
+  overflow-y: auto;
+  
+
+}
+
+#checkboxes label {
+  display: block;
+  border: 2px solid #daddec;
+  
+background: #FFFFFF;
+border-radius: 0px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+  
+}
+#checkboxes label input{
+  width: 22px;
+  height: 12px;
+}
+#checkboxes label:hover {
+  background-color: #FFFFFF;
+}
+.navi,
+.infoi {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.infoi {
+  z-index: 10;
+}
+
+.container-text select {
+  border: 2px solid #daddec;
+  padding: 7px;
+  border-radius: 3px;
+  box-sizing: border-box;
+background: #FFFFFF;
+border-radius: 2px;
+left: 20px;
+top: 12px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+letter-spacing: -0.15px;
+color: #333333;
+}
+.container-text select ,.container-text textarea {
+  border: 2px solid #daddec;
+  font-size: 1rem;
+  color: #656880;
+  
+}
+.horizontal-field{
+  display: inline-block;
+  padding-right: 1rem;
+}
+.search-btn{
+  width: 63px;
+  height: 32px;
+  background: #ED1C24;
+  color: #fff;
+  border: #ED1C24;
+}

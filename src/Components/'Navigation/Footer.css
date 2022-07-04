@@ -1,0 +1,27 @@
+.foot {
+    /* position: relative; */
+    font-family: 'Lato';
+    border-radius: 5px;
+    background-color:white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin:30px 120px 120px 120px;
+    padding: 10px;
+  
+  
+  }
+  
+  
+  .foot button {
+    color: #ffffff;
+    background: #ED1C24;
+    border-radius: 2px;
+    margin:auto;
+    font-size: 20px;
+    width:12%;
+    height:250%;
+    border:1px solid white;
+    padding: 10px;
+  
+  }

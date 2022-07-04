@@ -1,0 +1,46 @@
+.HeadContent {
+  font-family:'Lato';
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  font-family: "Lato";
+}
+.content1 {
+  align-items: flex-start;
+  /* margin-left: 0px; */
+  padding: 0px;
+  flex: 1;
+}
+
+.content2 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  flex: 1.5;
+}
+
+.content3 {align-items: flex-end;
+  flex: 1;
+}
+
+.HeadContent div {
+  font-family:'Lato';
+  font-weight: 900;
+  font-size: 24px;
+  margin: 15px;
+  letter-spacing: -0.019em;
+
+  color: #333333;
+}
+
+.MainContent {
+  font-weight: 900;
+  background-color: white;
+  /* border:1px solid black; */
+  margin: 0px 120px 15px 120px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
